@@ -1,0 +1,10 @@
+{
+  "name": "@react-team/stage-model",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "peerDependencies": {
+    "@elux/model": "*",
+    "path-to-regexp": "*",
+    "axios": "*"
+  }
+}

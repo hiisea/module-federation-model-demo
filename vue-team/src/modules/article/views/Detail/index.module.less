@@ -1,0 +1,53 @@
+@import '@vue-team/stage/assets/css/var.less';
+
+:global {
+  :local(.root) {
+    > .hd {
+      position: relative;
+      padding: 20px;
+      padding-left: 52px;
+      background-color: @primaryColor;
+
+      .back {
+        position: absolute;
+        top: 20px;
+        bottom: 20px;
+        left: 6px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 34px;
+        text-align: center;
+        cursor: pointer;
+        background-color: #fff;
+        border-radius: 5px 0 0 5px;
+
+        &::before {
+          font-size: 23px;
+          color: @primaryColor;
+          content: '<';
+        }
+      }
+
+      .title {
+        padding-bottom: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #fff;
+      }
+
+      .summary {
+        font-size: 12px;
+        line-height: 1.8;
+        color: @secondaryColor;
+      }
+    }
+
+    > .bd {
+      padding: 15px;
+      overflow: auto;
+      line-height: 1.8;
+      text-indent: 2em;
+    }
+  }
+}

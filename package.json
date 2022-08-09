@@ -1,0 +1,31 @@
+{
+  "name": "model-less",
+  "version": "1.0.0",
+  "description": "",
+  "author": "hiisea <hiisea@qq.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "private": true,
+  "workspaces": [
+    "app-api",
+    "react-team",
+    "react-team/src/modules/*",
+    "vue-team",
+    "vue-team/src/modules/*"
+  ],
+  "scripts": {
+    "mock": "lerna run mock --scope react-team --parallel",
+    "dev": "lerna run dev --scope react-team --scope vue-team --parallel",
+    "start": "run-p mock dev"
+  },
+  "devDependencies": {
+    "npm-run-all": "~4.1.5",
+    "lerna": "~3.22.1"
+  },
+  "resolutions": {
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0"
+  }
+}

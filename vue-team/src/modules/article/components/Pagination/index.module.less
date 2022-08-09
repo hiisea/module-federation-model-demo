@@ -1,0 +1,29 @@
+@import '@vue-team/stage/assets/css/var.less';
+
+:global {
+  :local(.root) {
+    padding-top: 10px;
+    overflow: hidden;
+    text-align: center;
+    border-top: @borderColor 1px dashed;
+
+    .item {
+      display: inline-block;
+      height: 30px;
+      padding: 0 30px;
+      margin: 20px 10px 0;
+      font-size: 14px;
+      line-height: 30px;
+      cursor: pointer;
+      background-color: @slightColor;
+      border: @borderColor 1px solid;
+      border-radius: 30px;
+    }
+
+    .info {
+      padding-bottom: 10px;
+      margin-top: 20px;
+      font-size: 12px;
+    }
+  }
+}

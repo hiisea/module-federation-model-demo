@@ -1,0 +1,66 @@
+@import '@vue-team/stage/assets/css/var.less';
+
+:global {
+  :local(.root) {
+    align-items: center;
+    background: linear-gradient(#d5e7ff 150px, #fff 101px) !important;
+
+    .title {
+      width: 100%;
+      font-size: 18px;
+      line-height: 50px;
+      text-align: center;
+      border-bottom: 1px dashed #bcd5f8;
+    }
+
+    .avatar {
+      width: 80px;
+      height: 80px;
+      margin-top: 50px;
+      background-size: cover;
+      border: 5px solid #fff;
+      border-radius: 80px;
+    }
+
+    .notices {
+      padding: 1px 5px;
+      margin-top: -20px;
+      margin-right: -50px;
+      font-size: 12px;
+      color: #fff;
+      background-color: @errorColor;
+      border-radius: 50px;
+    }
+
+    .nickname {
+      padding: 4px;
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+    .score {
+      padding-bottom: 40px;
+      font-size: 12px;
+      color: @tipColor;
+    }
+
+    .login {
+      padding: 5px 30px;
+      margin-top: 50px;
+      font-size: 15px;
+      color: #fff;
+      cursor: pointer;
+      background-color: @activeColor;
+      border-radius: 100px;
+    }
+
+    .logout {
+      padding: 5px 30px;
+      font-size: 15px;
+      color: @activeColor;
+      cursor: pointer;
+      border: 1px solid @activeColor;
+      border-radius: 100px;
+    }
+  }
+}

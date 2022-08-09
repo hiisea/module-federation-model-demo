@@ -1,0 +1,13 @@
+{
+  "name": "@react-team/article",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "peerDependencies": {
+    "@react-team/stage": "*",
+    "@react-team/stage-model": "*",
+    "@react-team/article-model": "*",
+    "@elux/react-web": "*",
+    "react": "*",
+    "path-to-regexp": "*"
+  }
+}

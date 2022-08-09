@@ -1,0 +1,13 @@
+{
+  "name": "@vue-team/admin",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "peerDependencies": {
+    "@vue-team/stage": "*",
+    "@react-team/stage-model": "*",
+    "@react-team/admin-model": "*",
+    "@elux/vue-web": "*",
+    "vue": "*",
+    "path-to-regexp": "*"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "@vue-team/stage",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "peerDependencies": {
+    "@react-team/stage-model": "*",
+    "@elux/vue-web": "*",
+    "vue": "*",
+    "path-to-regexp": "*",
+    "axios": "*"
+  }
+}
